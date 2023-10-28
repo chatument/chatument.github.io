@@ -21,7 +21,7 @@ export const Footer = () => {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/chatument"
                     className="hover:underline "
                   >
                     Linkedin
