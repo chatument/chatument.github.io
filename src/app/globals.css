@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --n: 100;
 }
 
 *:focus {
@@ -14,54 +15,6 @@
 
 button:focus {
   border: 0px solid rgba(0, 0, 0, 0);
-}
-
-.typed-out-left {
-  visibility: hidden;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space: nowrap;
-  animation: 
-    typingLeft 0.25s forwards;
-  font-size: 1.6rem;
-  width: 0;
-}
-
-.typed-out-right {
-  visibility: hidden;
-  overflow: hidden;
-  border-right: .15em solid #4F46E5;
-  white-space: nowrap;
-  animation: 
-    typingRight 0.25s forwards;
-  font-size: 1.6rem;
-  width: 0;
-}
-
-@keyframes typingLeft {
-  from { width: 0; }
-  to { width: 100%; visibility: visible; }
-
-  99.99% { 
-    border-right: .15em solid white;
-  }
-
-  100% { 
-    border-right: none;
-  }
-}
-
-@keyframes typingRight {
-  from { width: 0; }
-  to { width: 100%; visibility: visible; }
-
-  99.99% { 
-    border-right: .15em solid #4F46E5;
-  }
-
-  100% { 
-    border-right: none;
-  }
 }
 
 .delay-250ms {
@@ -96,7 +49,15 @@ button:focus {
   animation-delay: 2s;
 }
 
-.fade-animation {
+span.delay-child-500ms {
+  animation-delay: 0.5s;
+}
+
+span.delay-child-1000ms {
+  animation-delay: 1s;
+}
+
+.fade-animation:not(span) {
   visibility: hidden;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
@@ -105,7 +66,6 @@ button:focus {
   animation-timeline: auto;
   animation-fill-mode: forwards;
   animation-name: fadeInAnimation;
-  width: 400px;
 }
 
 @keyframes fadeInAnimation {
@@ -115,5 +75,38 @@ button:focus {
   100% {
     visibility: visible;
     opacity: 1;
+  }
+}
+
+.type-left {
+  color: #0000;
+  background: linear-gradient(-90deg, #fff 5px, #0000 0) 10px 0,
+    linear-gradient(#fff 0 0) 0 0;
+  background-size: calc(var(--n) * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
+}
+
+.type-right {
+  color: #0000;
+  background: linear-gradient(-90deg, #4f46e5 5px, #0000 0) 10px 0,
+    linear-gradient(#4f46e5 0 0) 0 0;
+  background-size: calc(var(--n) * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
+}
+
+@keyframes t {
+  from {  
+    background-size: 0 200%;
+  }
+}
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0;
   }
 }
