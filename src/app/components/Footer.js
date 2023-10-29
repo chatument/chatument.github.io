@@ -24,9 +24,6 @@ export const Footer = () => {
                     Linkedin
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline"></a>
-                </li>
               </ul>
             </div>
             <div>
@@ -50,7 +47,7 @@ export const Footer = () => {
         </div>
         <div className="sm:flex sm:items-center sm:justify-between mt-6">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023 <p>Chatument™</p>. All Rights Reserved.
+            © 2023 <p>Chatument™</p> All Rights Reserved.
           </span>
         </div>
       </div>

@@ -18,13 +18,13 @@ const questions = [
 export const Faq = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mt-16 ">
+      <div className="flex flex-col justify-center items-center mt-16 lg:mt-20">
         <h2 className="max-w-2xl mb-8 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl text-center ">
           FAQ
         </h2>
       </div>
 
-      <ul className="max-w-xl mx-auto divide-y lg:mt-20">
+      <ul className="max-w-xl mx-auto divide-y">
         {questions.map(({ question, aswer }) => {
           return (
             <li className="mb-2" key={question}>
