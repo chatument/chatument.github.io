@@ -10,14 +10,14 @@ export const LandingAnimation = () => {
       />
       <BubbleV2
         text="In the next quarter, the product team will focus on the 2.0 update UX proposed two weeks ago."
-        className="fade-animation delay-500ms"
-        childClassName='delay-child-500ms'
+        className="fade-animation delay-750ms"
+        childClassName='delay-child-750ms'
         position="left"
       />
       <BubbleV2
         text="I got it, thanks for your help!"
-        className="fade-animation delay-1000ms"
-        childClassName='delay-child-1000ms'
+        className="fade-animation delay-1250ms"
+        childClassName='delay-child-1250ms'
         position="right"
       />
     </div>

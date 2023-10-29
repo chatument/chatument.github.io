@@ -53,8 +53,20 @@ span.delay-child-500ms {
   animation-delay: 0.5s;
 }
 
+span.delay-child-750ms {
+  animation-delay: 0.5s;
+}
+
 span.delay-child-1000ms {
   animation-delay: 1s;
+}
+
+span.delay-child-1250ms {
+  animation-delay: 1.25s;
+}
+
+span.delay-child-1500ms {
+  animation-delay: 1.5s;
 }
 
 .fade-animation:not(span) {
