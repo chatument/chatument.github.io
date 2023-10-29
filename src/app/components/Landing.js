@@ -1,8 +1,8 @@
-import Image from 'next/image';
+import { LandingAnimation } from './LandingAnimation';
 
 export const Landing = () => {
   return (
-    <div className="flex container flex-wrap pl-8 pt-8 pr-8 mx-auto">
+    <div className="flex container flex-wrap pl-8 pt-8 pr-8 mx-auto sm:pt-24 ">
       <div className="flex items-center w-full lg:w-1/2 md:pr-4">
         <div className="max-w-2xl mb-8">
           <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
@@ -51,16 +51,7 @@ export const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full lg:w-1/2">
-        <div className="">
-          {/* <Image
-            src="/chatument_dark.svg"
-            width={616}
-            height={617}
-            alt="Hero Illustration"
-          /> */}
-        </div>
-      </div>
+      <LandingAnimation />
     </div>
   );
 };

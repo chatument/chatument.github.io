@@ -4,7 +4,6 @@ import { Logo } from "./Logo";
 export const Footer = () => {
   return (
     <footer>
-      
       <div className="mx-auto container p-4 py-6 lg:py-8">
       <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="md:flex md:justify-between">

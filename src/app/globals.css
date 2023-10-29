@@ -13,5 +13,107 @@
 }
 
 button:focus {
-  border: 0px solid rgba(0, 0, 0,0);
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.typed-out-left {
+  visibility: hidden;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  animation: 
+    typingLeft 0.25s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+.typed-out-right {
+  visibility: hidden;
+  overflow: hidden;
+  border-right: .15em solid #4F46E5;
+  white-space: nowrap;
+  animation: 
+    typingRight 0.25s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+@keyframes typingLeft {
+  from { width: 0; }
+  to { width: 100%; visibility: visible; }
+
+  99.99% { 
+    border-right: .15em solid white;
+  }
+
+  100% { 
+    border-right: none;
+  }
+}
+
+@keyframes typingRight {
+  from { width: 0; }
+  to { width: 100%; visibility: visible; }
+
+  99.99% { 
+    border-right: .15em solid #4F46E5;
+  }
+
+  100% { 
+    border-right: none;
+  }
+}
+
+.delay-250ms {
+  animation-delay: 0.25s;
+}
+
+.delay-500ms {
+  animation-delay: 0.5s;
+}
+
+.delay-750ms {
+  animation-delay: 0.75s;
+}
+
+.delay-1000ms {
+  animation-delay: 1s;
+}
+
+.delay-1250ms {
+  animation-delay: 1.25s;
+}
+
+.delay-1500ms {
+  animation-delay: 1.5s;
+}
+
+.delay-1750ms {
+  animation-delay: 1.75s;
+}
+
+.delay-2000ms {
+  animation-delay: 2s;
+}
+
+.fade-animation {
+  visibility: hidden;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timeline: auto;
+  animation-fill-mode: forwards;
+  animation-name: fadeInAnimation;
+  width: 400px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
