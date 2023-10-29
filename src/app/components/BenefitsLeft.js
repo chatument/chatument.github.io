@@ -6,7 +6,7 @@ export const BenefitsLeft = () => {
       <section className="mx-auto container flex flex-col mt-8 pl-8 pr-8 pt-8 lg:flex-row lg:mt-20">
         <LeftAnimation />
 
-        <div className={'flex flex-wrap items-center w-full lg:w-1/2'}>
+        <div className={'flex flex-wrap items-center w-full lg:w-1/2 order-first mb-6 lg:order-none'}>
           <div className="flex flex-col w-full mt-4 justify-center items-center">
             <h1 className="max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl text-center">
               The time of your colleagues matters

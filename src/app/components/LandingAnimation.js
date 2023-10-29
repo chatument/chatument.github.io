@@ -2,7 +2,7 @@
 
 export const LandingAnimation = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-y-8 w-full lg:w-1/2">
+    <div className="flex flex-col items-center justify-center gap-y-4 w-full lg:w-1/2">
       <BubbleV2
         text="Hey Chatument, what is the planning meeting outcome of the product roadmap?"
         className="fade-animation"

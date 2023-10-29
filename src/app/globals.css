@@ -99,6 +99,7 @@ span.delay-child-1500ms {
   background-clip: padding-box, text;
   background-repeat: no-repeat;
   animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
+  white-space: pre-line;
 }
 
 .type-right {
@@ -110,6 +111,7 @@ span.delay-child-1500ms {
   background-clip: padding-box, text;
   background-repeat: no-repeat;
   animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
+  white-space: pre-line;
 }
 
 @keyframes t {

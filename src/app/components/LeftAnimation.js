@@ -2,7 +2,7 @@ import { BubbleV2 } from './BubbleV2';
 
 export const LeftAnimation = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-y-8 w-full lg:w-1/2">
+    <div className="flex flex-col items-center justify-center gap-y-4 w-full lg:w-1/2 mr-0 lg:mr-6">
       <BubbleV2
         text="I would like to know more about the engineering RFC regarding the next iteration of the platform"
         className="fade-animation"
