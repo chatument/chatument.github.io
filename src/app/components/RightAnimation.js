@@ -1,4 +1,5 @@
 import { BubbleV2 } from './BubbleV2';
+import { Reference } from './Reference';
 
 export const RigthAnimation = (props) => {
   const { inViewport, reference } = props;
@@ -37,7 +38,7 @@ export const RigthAnimation = (props) => {
         position="left"
       />
       <BubbleV2
-        text={`Get more details byfollowing the referenced docs below`}
+        text={`Get more details byfollowing the referenced docs below.`}
         className={`fade-animation ${
           inViewport ? 'delay-1750ms fade-animation-running' : ''
         }`}
@@ -46,13 +47,35 @@ export const RigthAnimation = (props) => {
         }`}
         position="left"
       />
+      <div className="flex flex-row self-start gap-2 flex-wrap">
+        <Reference
+          text={`notion.so/f7c407c46ef9ee847c4bef7091990c7c49c`}
+          className={`fade-animation ${
+            inViewport ? 'delay-2250ms fade-animation-running' : ''
+          }`} 
+          childClassName={`${
+            inViewport ? 'delay-child-2250ms animation-running' : ''
+          }`}
+          position="left"
+        />
+        <Reference
+          text={`notion.so/1e2706ef9ee847c4bef7091990ccc39c`}
+          className={`fade-animation ${
+            inViewport ? 'delay-2500ms fade-animation-running' : ''
+          }`}
+          childClassName={`${
+            inViewport ? 'delay-child-2500ms animation-running' : ''
+          }`}
+          position="left"
+        />
+      </div>
       <BubbleV2
         text={`Got you, thanks my friend!`}
         className={`fade-animation ${
-          inViewport ? 'delay-2250ms fade-animation-running' : ''
+          inViewport ? 'delay-2750ms fade-animation-running' : ''
         }`}
         childClassName={`${
-          inViewport ? 'delay-child-2250ms animation-running' : ''
+          inViewport ? 'delay-child-2750ms animation-running' : ''
         }`}
         position="right"
       />

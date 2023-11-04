@@ -53,6 +53,14 @@ button:focus {
   animation-delay: 2.25s;
 }
 
+.delay-2500ms {
+  animation-delay: 2.5s;
+}
+
+.delay-2750ms {
+  animation-delay: 2.75s;
+}
+
 span.delay-child-500ms {
   animation-delay: 0.5s;
 }
@@ -77,9 +85,20 @@ span.delay-child-1750ms {
   animation-delay: 1.75s;
 }
 
+span.delay-child-2000ms {
+  animation-delay: 2s;
+}
 
 span.delay-child-2250ms {
   animation-delay: 2.25s;
+}
+
+span.delay-child-2500ms {
+  animation-delay: 2.5s;
+}
+
+span.delay-child-2750ms {
+  animation-delay: 2.75s;
 }
 
 .fade-animation:not(span) {
@@ -146,4 +165,8 @@ div.fade-animation-running {
 
 span.animation-running {
   animation-play-state: running;
+}
+
+.max-width-custom {
+  max-width: 10rem;
 }
