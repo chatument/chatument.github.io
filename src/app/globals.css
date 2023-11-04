@@ -49,6 +49,10 @@ button:focus {
   animation-delay: 2s;
 }
 
+.delay-2250ms {
+  animation-delay: 2.25s;
+}
+
 span.delay-child-500ms {
   animation-delay: 0.5s;
 }
@@ -67,6 +71,15 @@ span.delay-child-1250ms {
 
 span.delay-child-1500ms {
   animation-delay: 1.5s;
+}
+
+span.delay-child-1750ms {
+  animation-delay: 1.75s;
+}
+
+
+span.delay-child-2250ms {
+  animation-delay: 2.25s;
 }
 
 .fade-animation:not(span) {
