@@ -46,13 +46,13 @@ export default function PrivacyPolicy() {
           improve our website and provide a better user experience.`}
         </p>
 
-        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
-          2. Use of Information
-        </h4>
-
         <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
-          2.1 Personal Information:
+          2. Use of Information
         </h2>
+
+        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
+          2.1 Personal Information:
+        </h4>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           We will only use the Personal Information we collect to communicate
@@ -61,9 +61,9 @@ export default function PrivacyPolicy() {
           our terms or policies.
         </p>
 
-        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
+        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
           2.2 Usage Data:
-        </h2>
+        </h4>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           We may use Usage Data to analyze trends, administer our website, track
@@ -76,9 +76,9 @@ export default function PrivacyPolicy() {
           3. Information Sharing and Disclosure
         </h2>
 
-        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
+        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
           3.1 Service Providers:
-        </h2>
+        </h4>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           {` We may engage third-party companies or individuals ("Service
@@ -89,9 +89,9 @@ export default function PrivacyPolicy() {
           or use it for any other purpose.`}
         </p>
 
-        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
+        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
           3.2 Compliance with Law:
-        </h2>
+        </h4>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           We may disclose your Personal Information if required by law or as
@@ -109,18 +109,18 @@ export default function PrivacyPolicy() {
           unless a longer retention period is required or permitted by law.
         </p>
 
-        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
+        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
           5. Security
-        </h4>
+        </h2>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           We value the security of your information and implement reasonable
           measures to protect it from unauthorized access or disclosure.
         </p>
 
-        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
+        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
           {`6. Children's Privacy`}
-        </h4>
+        </h2>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           Our services are not intended for individuals under the age of 18. We
@@ -131,9 +131,9 @@ export default function PrivacyPolicy() {
           records.
         </p>
 
-        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
+        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
           7. Changes to this Privacy Policy
-        </h4>
+        </h2>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           We may update our Privacy Policy from time to time. Any changes will
@@ -142,9 +142,9 @@ export default function PrivacyPolicy() {
           for any updates.
         </p>
 
-        <h4 className="leading-snug text-lg tracking-tight text-gray-800 lg:leading-tight lg:text-lg">
+        <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">
           8. Contact Us
-        </h4>
+        </h2>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           If you have any questions about our Privacy Policy or if you would
