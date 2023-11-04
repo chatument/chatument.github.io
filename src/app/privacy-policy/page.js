@@ -149,7 +149,7 @@ export default function PrivacyPolicy() {
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
           If you have any questions about our Privacy Policy or if you would
           like to exercise any of your rights related to your Personal
-          Information, please contact us at whitman-2@hotmail.com.
+          Information, please contact us at contact@chatument.com.
         </p>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
