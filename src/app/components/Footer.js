@@ -36,18 +36,13 @@ export const Footer = () => {
                     Privacy Policy
                   </Link>
                 </li>
-                <li>
-                  <Link href="/terms" className="hover:underline">
-                    Terms &amp; Conditions
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="sm:flex sm:items-center sm:justify-between mt-6">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023 <p>Chatument™</p> All Rights Reserved.
+            © 2023 <p>Chatument</p> All Rights Reserved.
           </span>
         </div>
       </div>
