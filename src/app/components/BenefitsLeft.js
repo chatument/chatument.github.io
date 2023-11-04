@@ -1,11 +1,12 @@
-
+'use client'
+import handleViewport from 'react-in-viewport';
 import { LeftAnimation } from './LeftAnimation';
 
 export const BenefitsLeft = () => {
   return (
     <>
       <section className="mx-auto container flex flex-col mt-8 pl-8 pr-8 pt-8 lg:flex-row lg:mt-20">
-        <LeftAnimation />
+        <ViewportBlock />
 
         <div className={'flex flex-wrap items-center w-full lg:w-1/2 order-first mb-6 lg:order-none'}>
           <div className="flex flex-col w-full mt-4 justify-center items-center">
@@ -28,3 +29,13 @@ export const BenefitsLeft = () => {
     </>
   );
 };
+
+const Block = (props) => {
+  const { inViewport, forwardedRef } = props;
+  
+  return (
+    <LeftAnimation inViewport={inViewport} reference={forwardedRef} />
+  );
+};
+
+const ViewportBlock = handleViewport(Block, /*{config: { disconnectOnLeave: false } }*/);
