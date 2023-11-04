@@ -5,11 +5,11 @@ const questions = [
       'We are giving some final touches here and there, and we will start the closed beta in the following weeks, inviting organizations from the waitlist.',
   },
   {
-    question: 'Will Chatument use my Data to train Deep Learning Models?',
+    question: 'Will Chatument use my data to train deep learning models?',
     aswer: 'No. Chatument will not use any of your data to train models.',
   },
   {
-    question: 'What are the integrations supported?',
+    question: 'What integrations are supported?',
     aswer:
       'We are integrated with Slack as a channel for using Chatument and with Notion as a data source. As soon as we launch the open beta, we will start the rollout of new integrations as fast as possible.',
   },

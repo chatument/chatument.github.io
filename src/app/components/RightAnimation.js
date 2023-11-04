@@ -28,7 +28,7 @@ export const RigthAnimation = (props) => {
         position="left"
       />
       <BubbleV2
-        text={`1. Clone the git repositories and set the environment variable \n 2. Run the Docker container with Docker Compose`}
+        text={`1. Clone the git repositories and set the environment variables. \n 2. Run the Docker containers with Docker Compose.`}
         className={`fade-animation ${
           inViewport ? 'delay-1000ms fade-animation-running' : ''
         }`}
@@ -38,7 +38,7 @@ export const RigthAnimation = (props) => {
         position="left"
       />
       <BubbleV2
-        text={`Get more details byfollowing the referenced docs below.`}
+        text={`Get more details by following the referenced documents below:`}
         className={`fade-animation ${
           inViewport ? 'delay-1750ms fade-animation-running' : ''
         }`}
@@ -70,7 +70,7 @@ export const RigthAnimation = (props) => {
         />
       </div>
       <BubbleV2
-        text={`Got you, thanks my friend!`}
+        text={`Got you, thanks for that!`}
         className={`fade-animation ${
           inViewport ? 'delay-2750ms fade-animation-running' : ''
         }`}
