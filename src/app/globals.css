@@ -87,7 +87,7 @@ span.delay-child-2250ms {
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-direction: normal;
-  animation-play-state: paused;
+  animation-play-state: running;
   animation-timeline: auto;
   animation-fill-mode: forwards;
   animation-name: fadeInAnimation;
@@ -112,7 +112,7 @@ span.delay-child-2250ms {
   background-clip: padding-box, text;
   background-repeat: no-repeat;
   animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
-  animation-play-state: paused; 
+  /* animation-play-state: paused;  */
   white-space: pre-line;
 }
 
@@ -125,7 +125,7 @@ span.delay-child-2250ms {
   background-clip: padding-box, text;
   background-repeat: no-repeat;
   animation: b 0.2s infinite steps(1), t 1s steps(var(--n)) forwards;
-  animation-play-state: paused; 
+  /* animation-play-state: paused;  */
   white-space: pre-line;
 }
 
@@ -140,10 +140,10 @@ span.delay-child-2250ms {
   }
 }
 
-div.fade-animation-running {
+/* div.fade-animation-running {
   animation-play-state: running;
 }
 
 span.animation-running {
   animation-play-state: running;
-}
+} */
