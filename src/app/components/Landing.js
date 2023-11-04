@@ -1,3 +1,5 @@
+'use client'
+import handleViewport from 'react-in-viewport';
 import { LandingAnimation } from './LandingAnimation';
 
 export const Landing = () => {
@@ -51,7 +53,18 @@ export const Landing = () => {
           </div>
         </div>
       </div>
-      <LandingAnimation />
+      <ViewportBlock />
     </div>
   );
 };
+
+
+const Block = (props) => {
+  const { inViewport, forwardedRef } = props;
+  
+  return (
+    <LandingAnimation inViewport={inViewport} reference={forwardedRef} />
+  );
+};
+
+const ViewportBlock = handleViewport(Block, /*{config: { disconnectOnLeave: false } }*/);

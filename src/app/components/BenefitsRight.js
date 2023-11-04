@@ -1,4 +1,6 @@
+'use client'
 import { RigthAnimation } from "./RightAnimation";
+import handleViewport from 'react-in-viewport';
 
 export const BenefitsRight = () => {
   return (
@@ -23,8 +25,18 @@ export const BenefitsRight = () => {
             </p>
           </div>
         </div>
-        <RigthAnimation />
+        <ViewportBlock />
       </section>
     </>
   );
 };
+
+const Block = (props) => {
+  const { inViewport, forwardedRef } = props;
+  
+  return (
+    <RigthAnimation inViewport={inViewport} reference={forwardedRef} />
+  );
+};
+
+const ViewportBlock = handleViewport(Block, /*{config: { disconnectOnLeave: false } }*/);
