@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
           We may update our Privacy Policy from time to time. Any changes will
           be posted on this page and become effective immediately upon posting.
           It is your responsibility to review this Privacy Policy periodically
-          for any updates.
+          for any updates. We will notify everytime this policy is updated.
         </p>
 
         <h2 className="pb-4 leading-snug text-2xl tracking-tight text-gray-800 lg:leading-tight lg:text-2xl">

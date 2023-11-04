@@ -6,7 +6,7 @@ export const LandingAnimation = (props) => {
   return (
     <div className="flex flex-col items-center justify-center gap-y-4 w-full lg:w-1/2" ref={reference}>
       <BubbleV2
-        text="Hey Chatument, what is the planning meeting outcome of the product roadmap?"
+        text="Hey Chatument, What are the proposals from the product team for the next quarter?"
         className={`fade-animation ${
           inViewport ? 'fade-animation-running' : ''
         }`}
@@ -14,7 +14,7 @@ export const LandingAnimation = (props) => {
         position="right"
       />
       <BubbleV2
-        text="In the next quarter, the product team will focus on the 2.0 update UX proposed two weeks ago."
+        text="The product team proposed to focus on the user experience for the next big update of the platform."
         className={`fade-animation ${
           inViewport ? 'fade-animation-running delay-750ms' : ''
         }`}
@@ -22,7 +22,7 @@ export const LandingAnimation = (props) => {
         position="left"
       />
       <BubbleV2
-        text="I got it, thanks for your help!"
+        text="I got it. Thanks for your help!"
         className={`fade-animation ${
           inViewport ? 'fade-animation-running delay-1250ms' : ''
         }`}

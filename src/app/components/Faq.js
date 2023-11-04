@@ -2,7 +2,7 @@ const questions = [
   {
     question: 'When will Chatument be available for everyone?',
     aswer:
-      'We are giving some final touches here and there, we will start the closed beta in the following weeks, inviting organization from the waitlist',
+      'We are giving some final touches here and there, and we will start the closed beta in the following weeks, inviting organizations from the waitlist.',
   },
   {
     question: 'Will Chatument use my Data to train Deep Learning Models?',
@@ -11,7 +11,7 @@ const questions = [
   {
     question: 'What are the integrations supported?',
     aswer:
-      'We are integrated with Slack as a channel for using Chatument, and with Notion as a data Source, as soon as we launch the open beta, we will start the rollout of new integrations as fast as possible',
+      'We are integrated with Slack as a channel for using Chatument and with Notion as a data source. As soon as we launch the open beta, we will start the rollout of new integrations as fast as possible.',
   },
 ];
 
