@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
         </h4>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
-          We may also collect non-personally identifiable information (\"Usage Data\") about how you interact 
+          We may also collect non-personally identifiable information ("Usage Data") about how you interact 
           with our website. This may include information such as your browser type, device information, IP address, 
           pages visited, and time spent on our website. We collect this data to improve our website and provide a better user experience.
         </p>
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
         </h2>
 
         <p className="pb-6 text-left py-4 text-sm leading-normal text-gray-800 lg:text-sm xl:text-sm">
-          We may engage third-party companies or individuals ('Service Providers') to facilitate our website, 
+          We may engage third-party companies or individuals ("Service Providers") to facilitate our website, 
           provide services on our behalf, or assist us in analyzing how our website is used. These Service Providers 
           may have access to your Personal Information and Usage Data to perform tasks on our behalf, but they 
           are obligated not to disclose or use it for any other purpose.
