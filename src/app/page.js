@@ -1,15 +1,26 @@
-import { Header, Landing, Features, BenefitsLeft, BenefitsRight, Faq, Footer } from "./components";
+import {
+  Header,
+  Landing,
+  Features,
+  BenefitsLeft,
+  BenefitsRight,
+  Faq,
+  Footer,
+  Email,
+} from './components';
+import { EmailInput } from './components/EmailInput';
 
 export default function Home() {
   return (
-    <div >    
+    <div>
       <Header />
       <Landing />
       <Features />
       <BenefitsLeft />
       <BenefitsRight />
       <Faq />
+      <Email />
       <Footer />
     </div>
-  )
+  );
 }

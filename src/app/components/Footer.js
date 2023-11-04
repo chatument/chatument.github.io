@@ -9,6 +9,9 @@ export const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Logo />
+            <div className="mt-4 text-gray-500 font-medium">
+              contact@chatument.com
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -42,7 +45,7 @@ export const Footer = () => {
         </div>
         <div className="sm:flex sm:items-center sm:justify-between mt-6">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023 <p>Chatument</p> All Rights Reserved.
+            © 2023 Chatument All Rights Reserved.
           </span>
         </div>
       </div>
