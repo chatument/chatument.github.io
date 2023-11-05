@@ -13,7 +13,7 @@ export const Email = () => {
           className="text-indigo-500 hover:underline"
           href="/privacy-policy"
         >
-          Privacy Policy
+          privacy policy
         </a>
         .
       </div>
