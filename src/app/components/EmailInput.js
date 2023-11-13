@@ -19,7 +19,6 @@ export const EmailInput = () => {
     const isValid = REGEX_EMAIL.test(value);
 
     if (isValid) {
-      await postEmail(value);
       setSuccess(true);
     }
 
